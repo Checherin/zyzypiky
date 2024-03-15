@@ -1,0 +1,45 @@
+/* style.css */
+
+/* Стили для навигационного меню */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #0BCEAF;
+}
+
+/* Стили для главной секции (Hero area) */
+.container-fluid {
+    background-color: #457efa;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container-fluid h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    -webkit-text-stroke: 4px #ffffff;
+}
+
+.about-img img {
+    max-width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Дополнительные стили по вашему вкусу */
